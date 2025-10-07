@@ -1,0 +1,61 @@
+@media (max-width: 600px) {
+    body {
+        padding: 0.5rem;
+        overflow: hidden;
+    }
+
+    .weather-container {
+        margin-top: 10px;
+        max-width: 98vw;
+        padding: 1rem 0.5rem;
+        border-radius: 18px;
+        box-shadow: 0 2px 12px rgba(31, 38, 135, 0.10);
+    }
+
+    .side-by-side {
+        flex-direction: column !important;
+        gap: 0.5rem;
+    }
+    .center {
+        margin: 0;
+    }
+
+    .input-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .subtitle {
+        font-size: 0.95rem;
+    }
+
+    .input-row {
+        flex-direction: column;
+        gap: 0.7rem;
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        font-size: 1rem;
+        padding: 0.7rem 0.8rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.7rem 0.8rem;
+    }
+
+    .weather-display {
+        min-width: 0;
+        width: 100%;
+        padding: 1rem 0.5rem;
+        border-radius: 16px;
+    }
+
+    #error {
+        font-size: 0.95rem;
+        /* padding: 0.6rem 0.5rem;   */
+        border-radius: 8px;
+    }
+}

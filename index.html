@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="side-by-side">
+        <div class="center">
+            <div class="weather-container">
+                <div class="input-section">
+                    <h2>Weather App</h2>
+                    <p class="subtitle">Enter your city to get the latest weather update</p>
+                    <div class="input-row">
+                        <input type="text" placeholder="Kindly input your city name" id="cityName">
+                        <button onclick="check()" id="button">Check Weather</button>
+                    </div>
+                    <div id="error"></div>
+                </div>
+            </div>
+        </div>
+        <div id="show" class="weather-display"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
