@@ -48,7 +48,7 @@
 
     .weather-display {
         min-width: 0;
-        width: 100%;
+        width: 90vw;
         padding: 1rem 0.5rem;
         border-radius: 16px;
     }
